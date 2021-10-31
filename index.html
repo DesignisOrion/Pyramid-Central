@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse of GLDNF</title>
+    
+    <!-- Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- Enviroment Component-->
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+    <!-- Video Componets-->
+    <script src="video.js"></script>
+
+</head>
+<body>
+    <a-scene fog="type: linear; color: #AAA">
+        <!-- Top Bar -->
+        <a-box color="#ffff00"
+               width="20"
+               height="1"
+               depth="0.3"
+               position="0 12 -25">
+        </a-box>
+        <!--Main Screen-->
+        <a-video src="video3.mp4" width="12" height="8" position="0 5 -25"></a-video>
+        <!--Right Screen Top-->
+        <a-video src="earth.mp4" width="6" height="4" position="10 8 -25"></a-video>
+
+        <!-- Bottom Right-->
+        <a-box color="#ffff00"
+               width="6"
+               height="2"
+               depth="0.3"
+               position="10 4 -25">
+        </a-box>
+
+        <!--Left Screen Top-->
+        <a-video src="video.mp4" width="6" height="4" position="-10 8 -25"></a-video>
+        <!-- Bottom Left-->
+        <a-box color="#ffff00"
+               width="6"
+               height="2"
+               depth="0.3"
+               position="-10 4 -25">
+        </a-box>
+        <a-entity environment="preset: osiris; groundColor: #445; groundTexture: walkernoise; grid: cross"></a-entity>
+
+    </a-scene>
+</body>
+</html>
