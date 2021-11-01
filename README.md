@@ -24,6 +24,7 @@ In this project I wanted to create a virtual reality world using Aframe. While d
 ### Executing program
 
 * Live Page: https://designisorion.github.io/Pyramid-Central/
+* Controls: W - UP, S - Down, A - Left, D - Right.
 
 ## Help
 
