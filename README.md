@@ -2,11 +2,13 @@
 
 A virtual reality world that was created using Aframe
 
-
+<img src="https://github.com/DesignisOrion/Pyramid-Central/blob/main/img/Screenshot%20(1).png">
 
 ## Description
 
 In this project I wanted to create a virtual reality world using Aframe. While developing the project, I was able to learn about the position of objects, scenes and entities. Video used was sourced by pixels.com (A free stock video solution)
+
+Live Page: https://designisorion.github.io/Pyramid-Central/
 
 ## Getting Started
 
