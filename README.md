@@ -1,4 +1,4 @@
-# BlockyWars Login Screen
+# Pyramid Central (World 001)
 
 A virtual reality world that was created using Aframe
 
